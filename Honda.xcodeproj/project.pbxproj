@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A186ACCE2DEFE66A005B997C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A186ACCD2DEFE66A005B997C /* AppDelegate.m */; };
+		A186ACD12DEFE66A005B997C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A186ACD02DEFE66A005B997C /* SceneDelegate.m */; };
+		A186ACD42DEFE66A005B997C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A186ACD32DEFE66A005B997C /* ViewController.m */; };
+		A186ACD72DEFE66A005B997C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A186ACD52DEFE66A005B997C /* Main.storyboard */; };
+		A186ACDA2DEFE66A005B997C /* Honda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A186ACD82DEFE66A005B997C /* Honda.xcdatamodeld */; };
+		A186ACDC2DEFE66C005B997C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A186ACDB2DEFE66C005B997C /* Assets.xcassets */; };
+		A186ACDF2DEFE66C005B997C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A186ACDD2DEFE66C005B997C /* LaunchScreen.storyboard */; };
+		A186ACE22DEFE66C005B997C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A186ACE12DEFE66C005B997C /* main.m */; };
+		A186ACF32DEFF67D005B997C /* AddUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A186ACF22DEFF67D005B997C /* AddUserViewController.m */; };
+		A186ACFA2DF0389A005B997C /* UserEntity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A186ACF82DF0389A005B997C /* UserEntity+CoreDataClass.m */; };
+		A186ACFB2DF0389A005B997C /* UserEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A186ACF92DF0389A005B997C /* UserEntity+CoreDataProperties.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A186ACC92DEFE66A005B997C /* Honda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A186ACCC2DEFE66A005B997C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A186ACCD2DEFE66A005B997C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A186ACCF2DEFE66A005B997C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A186ACD02DEFE66A005B997C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A186ACD22DEFE66A005B997C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A186ACD32DEFE66A005B997C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A186ACD62DEFE66A005B997C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A186ACD92DEFE66A005B997C /* Honda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Honda.xcdatamodel; sourceTree = "<group>"; };
+		A186ACDB2DEFE66C005B997C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A186ACDE2DEFE66C005B997C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A186ACE02DEFE66C005B997C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A186ACE12DEFE66C005B997C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A186ACF12DEFF67D005B997C /* AddUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddUserViewController.h; sourceTree = "<group>"; };
+		A186ACF22DEFF67D005B997C /* AddUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddUserViewController.m; sourceTree = "<group>"; };
+		A186ACF62DF0389A005B997C /* UserEntity+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UserEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A186ACF72DF0389A005B997C /* UserEntity+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UserEntity+CoreDataClass.h"; sourceTree = "<group>"; };
+		A186ACF82DF0389A005B997C /* UserEntity+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UserEntity+CoreDataClass.m"; sourceTree = "<group>"; };
+		A186ACF92DF0389A005B997C /* UserEntity+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UserEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A186ACC62DEFE66A005B997C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A186ACC02DEFE66A005B997C = {
+			isa = PBXGroup;
+			children = (
+				A186ACCB2DEFE66A005B997C /* Honda */,
+				A186ACCA2DEFE66A005B997C /* Products */,
+				A186ACF72DF0389A005B997C /* UserEntity+CoreDataClass.h */,
+				A186ACF82DF0389A005B997C /* UserEntity+CoreDataClass.m */,
+				A186ACF62DF0389A005B997C /* UserEntity+CoreDataProperties.h */,
+				A186ACF92DF0389A005B997C /* UserEntity+CoreDataProperties.m */,
+			);
+			sourceTree = "<group>";
+		};
+		A186ACCA2DEFE66A005B997C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A186ACC92DEFE66A005B997C /* Honda.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A186ACCB2DEFE66A005B997C /* Honda */ = {
+			isa = PBXGroup;
+			children = (
+				A186ACCC2DEFE66A005B997C /* AppDelegate.h */,
+				A186ACCD2DEFE66A005B997C /* AppDelegate.m */,
+				A186ACCF2DEFE66A005B997C /* SceneDelegate.h */,
+				A186ACD02DEFE66A005B997C /* SceneDelegate.m */,
+				A186ACD22DEFE66A005B997C /* ViewController.h */,
+				A186ACD32DEFE66A005B997C /* ViewController.m */,
+				A186ACD52DEFE66A005B997C /* Main.storyboard */,
+				A186ACDB2DEFE66C005B997C /* Assets.xcassets */,
+				A186ACDD2DEFE66C005B997C /* LaunchScreen.storyboard */,
+				A186ACE02DEFE66C005B997C /* Info.plist */,
+				A186ACE12DEFE66C005B997C /* main.m */,
+				A186ACD82DEFE66A005B997C /* Honda.xcdatamodeld */,
+				A186ACF12DEFF67D005B997C /* AddUserViewController.h */,
+				A186ACF22DEFF67D005B997C /* AddUserViewController.m */,
+			);
+			path = Honda;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A186ACC82DEFE66A005B997C /* Honda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A186ACE52DEFE66C005B997C /* Build configuration list for PBXNativeTarget "Honda" */;
+			buildPhases = (
+				A186ACC52DEFE66A005B997C /* Sources */,
+				A186ACC62DEFE66A005B997C /* Frameworks */,
+				A186ACC72DEFE66A005B997C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Honda;
+			productName = Honda;
+			productReference = A186ACC92DEFE66A005B997C /* Honda.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A186ACC12DEFE66A005B997C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A186ACC82DEFE66A005B997C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = A186ACC42DEFE66A005B997C /* Build configuration list for PBXProject "Honda" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A186ACC02DEFE66A005B997C;
+			productRefGroup = A186ACCA2DEFE66A005B997C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A186ACC82DEFE66A005B997C /* Honda */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A186ACC72DEFE66A005B997C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A186ACDF2DEFE66C005B997C /* LaunchScreen.storyboard in Resources */,
+				A186ACDC2DEFE66C005B997C /* Assets.xcassets in Resources */,
+				A186ACD72DEFE66A005B997C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A186ACC52DEFE66A005B997C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A186ACE22DEFE66C005B997C /* main.m in Sources */,
+				A186ACFB2DF0389A005B997C /* UserEntity+CoreDataProperties.m in Sources */,
+				A186ACF32DEFF67D005B997C /* AddUserViewController.m in Sources */,
+				A186ACDA2DEFE66A005B997C /* Honda.xcdatamodeld in Sources */,
+				A186ACD42DEFE66A005B997C /* ViewController.m in Sources */,
+				A186ACFA2DF0389A005B997C /* UserEntity+CoreDataClass.m in Sources */,
+				A186ACCE2DEFE66A005B997C /* AppDelegate.m in Sources */,
+				A186ACD12DEFE66A005B997C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A186ACD52DEFE66A005B997C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A186ACD62DEFE66A005B997C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A186ACDD2DEFE66C005B997C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A186ACDE2DEFE66C005B997C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A186ACE32DEFE66C005B997C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A186ACE42DEFE66C005B997C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A186ACE62DEFE66C005B997C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZRZR97UNF;
+				INFOPLIST_FILE = Honda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reynald-Gragasin.Honda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A186ACE72DEFE66C005B997C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZRZR97UNF;
+				INFOPLIST_FILE = Honda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reynald-Gragasin.Honda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A186ACC42DEFE66A005B997C /* Build configuration list for PBXProject "Honda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A186ACE32DEFE66C005B997C /* Debug */,
+				A186ACE42DEFE66C005B997C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A186ACE52DEFE66C005B997C /* Build configuration list for PBXNativeTarget "Honda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A186ACE62DEFE66C005B997C /* Debug */,
+				A186ACE72DEFE66C005B997C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A186ACD82DEFE66A005B997C /* Honda.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A186ACD92DEFE66A005B997C /* Honda.xcdatamodel */,
+			);
+			currentVersion = A186ACD92DEFE66A005B997C /* Honda.xcdatamodel */;
+			path = Honda.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A186ACC12DEFE66A005B997C /* Project object */;
+}
